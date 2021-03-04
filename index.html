@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mouse</title>
+	<link rel="stylesheet" type="text/css" href="estiloentrega4MOUSEperiodo1.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div onmouseout="fuera();" onmouseover="dentro();" id="div"></div>
+	<script>
+		function fuera()
+		{
+			document.getElementById("div").innerHTML="El mouse se encuentra afuera";
+		}
+		function dentro()
+		{
+			document.getElementById("div").innerHTML="El mouse se encuentra adentro";
+		}
+	</script>
+</body>
+</html>

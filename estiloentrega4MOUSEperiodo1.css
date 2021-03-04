@@ -1,0 +1,24 @@
+body
+{
+	background-color: #7636D4;
+}
+
+#div
+{
+	position: absolute;
+	top: 4%;
+	left: 4%;
+	width: 60%;
+	height: 60%;
+	background-color: #AFAE82;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 10px;
+	font-size: 50px;
+	text-align: center;
+	color: black;
+	font-family: Courier New;
+	font-weight: bold;
+	font-style: italic;
+}
